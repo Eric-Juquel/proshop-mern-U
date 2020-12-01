@@ -43,7 +43,7 @@ const ProfileScreen = ({ history }) => {
         setEmail(user.email)
       }
     }
-  }, [dispatch, history, userInfo, user, success])
+  }, [dispatch, history, userInfo, user, success, orderListMy])
 
   const submitHandler = (e) => {
     e.preventDefault()
